@@ -2,16 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import RoutePage from './RoutePage';
-import StartPage from "./StartPage"
-import Validation  from './Validation'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <RoutePage />
-    {/* <Validation/> */}
-    {/* <StartPage/> */}
     {/* <InvoiceComponent/> */}
   </React.StrictMode>
 );
